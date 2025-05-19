@@ -14,6 +14,51 @@ let clientes = [
         idade: 18,
         email: "isafreitascruz@gmail.com",
     },
+    {
+        nome: "Vinicus",
+        idade: 20,
+        email: "vinisetim@gmail.com",
+    }, 
+    {
+        nome: "Mari",
+        idade: 19,
+        email: "mari.gostosinha@gmail.com",
+    },
+    {
+        nome: "Josue",
+        idade: 22,
+        email: "josue@gmail.com",
+    },
+    {
+        nome: "MArtins",
+        idade: 5,
+        email: "math@gmail.com",
+    },
+    {
+        nome: "Debora",
+        idade: 110,
+        email: "profdede@gmail.com",
+    },
+    {
+        nome: "GUsmao",
+        idade: 100,
+        email: "profgugu@gmail.com",
+    },
+    {
+        nome: "Roberto",
+        idade: 25,
+        email: "ro01@gmail.com",
+    },
+    {
+        nome: "Roberto",
+        idade: 18,
+        email: "robei@gmail.com",
+    },
+    {
+        nome: "Roger",
+        idade: 50,
+        email: "rogerluna@gmail.com",
+    },
 ];
 
 function filtrarclientesAdultos(cliente) {
