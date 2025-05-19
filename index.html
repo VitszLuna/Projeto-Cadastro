@@ -1,52 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>"exercicio1</title>
-   <script src="proj.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercício 1</title>
+  <script src="proj.js"></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container2">
-   
-        <nav>
-            <div class="navegacao">
-              <a href="index.html">INTRODUÇÃO</a>
-            </div>
-            <div class="search">
-              <input type="text" placeholder="Pesquisar...">
-              <button>Buscar</button>
-            </div>
-          </nav>
+  <div class="container2">
+    <nav>
+      <div class="navegacao">
+        <a href="index.html">INTRODUÇÃO</a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Pesquisar..." />
+        <button class="botao1">Buscar</button>
+      </div>
+    </nav>
+
     <h1 class="H1centro">Filtro de Clientes</h1>
-    <p>Este sistema filtra os dados cadastrados no objeto javascript e traz apenas os clientes com idade >=18 anos.</p>
+    <p>Este sistema filtra os dados cadastrados no objeto JavaScript e traz apenas os clientes com idade >=18 anos.</p>
 
     <ul id="listaclientesAdultos"></ul>
 
-
     <button type="button" class="botao" onclick="mostrarclientesAdultos()">Mostrar Clientes</button>
-    <hr>
+    <hr />
+
     <h1 class="H1centro">Cadastrar novo cliente</h1>
- <label for="Nome">
-    <input type="text" id="nomeCliente">
- </label>
- <label for="Idade">
-    <input type="number" id="idadeCliente">
- </label>
- <label for="Email">
-    <input type="email" id="emailCliente">
- </label>
 
- <button type="button" class="botao" onclick="cadastrarCliente()">Cadastrar Clientes</button>
- <p class="resultado" id="mensagemCadastro"></p>
-
- <div class="botao">
-    <div class="botao">
-      <span>HOVER ME</span>
-    </div>
+    <input type="text" id="nomeCliente" placeholder="Nome do Cliente" />
+    <input type="number" id="idadeCliente" placeholder="Idade" />
+    <input type="email" id="emailCliente" placeholder="E-mail" />
+    <button type="button" class="botao" onclick="cadastrarCliente()">Cadastrar Cliente</button>
+    
+    <p class="resultado" id="mensagemCadastro"></p>
   </div>
-
-</div>
 </body>
 </html>
